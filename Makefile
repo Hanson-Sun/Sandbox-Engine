@@ -15,6 +15,7 @@ CXXFLAGS   = -std=c++1y -c -g -O0 -Wall -Wextra -pedantic $(INC_FLAGS)
 LDFLAGS    = -std=c++1y $(LIB_FLAGS) 
 CXX        = g++
 
+CPP_FILES  += $(wildcard $(SOURCE)/*.cpp)
 CPP_FILES  += $(wildcard $(SOURCE)/**/*.cpp)
 OBJ_FILES  := $(patsubst $(SOURCE)/%.cpp, $(BUILD_PATH)/%.o, $(CPP_FILES))
 # $(patsubst $(SOURCE)/%.cpp, $(BUILD_PATH)/%.o, $(CPP_FILES))
