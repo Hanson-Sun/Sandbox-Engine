@@ -36,7 +36,8 @@ public:
 
     template<typename T>
     void push(unsigned int count) {
-        static_assert(false, "Data type not supported");
+        std::cerr << "Unsupported data type\n";
+        assert(false);
     }
 
     void push(unsigned int type, unsigned int count, bool normalized) {

@@ -27,6 +27,8 @@ void Shader::unbind() const {
 ShaderProgramSource Shader::parseShader(const std::string file_path) {
 	std::ifstream stream(file_path);
 
+	assert(stream.is_open() && "Failed to open shader file");
+
 	enum class ShaderType {
 		NONE = -1, VERTEX = 0, FRAGMENT = 1
 	};

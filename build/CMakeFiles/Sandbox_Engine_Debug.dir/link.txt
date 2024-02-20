@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Sandbox_Engine_Debug.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\Sandbox_Engine_Debug.dir/objects.a @CMakeFiles\Sandbox_Engine_Debug.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\g++.exe -Wall -Wextra -pedantic -g -Wl,--whole-archive CMakeFiles\Sandbox_Engine_Debug.dir/objects.a -Wl,--no-whole-archive -o Sandbox_Engine_Debug.exe -Wl,--out-implib,libSandbox_Engine_Debug.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Sandbox_Engine_Debug.dir\linkLibs.rsp

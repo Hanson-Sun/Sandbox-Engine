@@ -1,0 +1,1 @@
+  -L"C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib"  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib/libglfw3.a" "C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib/libglad.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

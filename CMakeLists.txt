@@ -19,6 +19,10 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
+message(STATUS "C Compiler: ${CMAKE_C_COMPILER}")
+message(STATUS "C++ Compiler: ${CMAKE_CXX_COMPILER}")
+message(STATUS "Linker: ${CMAKE_LINKER}")
+
 # i should switch to recursive directory search
 include_directories(
     ${CMAKE_SOURCE_DIR}/${INC_DIR}
@@ -29,40 +33,56 @@ include_directories(
 	${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
 )
 
-file(GLOB_RECURSE HEADER_FILES "${INCLUDE_DIR}/*.h" "${INCLUDE_DIR}/*.hpp")
+file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")
 file(GLOB_RECURSE SOURCE_FILES "${SRC_DIR}/*.cpp", "{SRC_DIR}/*.c")
+
+link_directories(${CMAKE_SOURCE_DIR}/${LIB_DIR})
+
 
 add_executable(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} ${HEADER_FILES} ${SOURCE_FILES})
 
+add_custom_command(TARGET ${PROJECT_NAME}_${CMAKE_BUILD_TYPE} POST_BUILD
+                   COMMAND ${CMAKE_COMMAND} -E copy_directory
+                   ${CMAKE_SOURCE_DIR}/res $<TARGET_FILE_DIR:${PROJECT_NAME}_${CMAKE_BUILD_TYPE}>/res)
+
 # libraries 
-# link_directories(${LIB_DIR})
-# target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} "glfw3.dll" "libglad.a")
 
-# OpenGL
-set(OpenGL_GL_PREFERENCE GLVND)
-find_package(OpenGL REQUIRED)
+find_library(GLFW3_LIBRARY glfw3 PATHS ${CMAKE_SOURCE_DIR}/${LIB_DIR})
+find_library(GLAD_LIBRARY glad PATHS ${CMAKE_SOURCE_DIR}/${LIB_DIR})
+message ("Library path: ${GLFW3_LIBRARY}, ${GLAD_LIBRARY}")
 
-# GLM
-find_package(GLM REQUIRED)
-message(STATUS "GLM included at ${GLM_INCLUDE_DIR}")
+target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} ${GLFW3_LIBRARY} ${GLAD_LIBRARY})
 
-# GLFW
-find_package(GLFW3 REQUIRED)
-message(STATUS "Found GLFW3 in ${GLFW3_INCLUDE_DIR}")
 
-# GLAD
-add_library(GLAD "thirdparty/glad.c")
 
-# Put all libraries into a variable
-set(LIBS ${GLFW3_LIBRARY} ${OPENGL_LIBRARY} GLAD ${CMAKE_DL_LIBS} ${ASSIMP_LIBRARY} STB_IMAGE)
 
-if(${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
-    message("Building for Windows")
-	target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} gdi32)
-else()
-    message("Not building for Windows")
-    # Add commands for other systems here
-endif()
+# if(${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
+#     message("Building for Windows")
+# 	target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} gdi32)
+# else()
+#     message("Not building for Windows")
+#     # Add commands for other systems here
+# endif()
+
+# # OpenGL
+# set(OpenGL_GL_PREFERENCE GLVND)
+# find_package(OpenGL REQUIRED)
+
+# # GLM
+# find_package(GLM REQUIRED)
+# message(STATUS "GLM included at ${GLM_INCLUDE_DIR}")
+
+# # GLFW
+# find_package(GLFW3 REQUIRED)
+# message(STATUS "Found GLFW3 in ${GLFW3_INCLUDE_DIR}")
+
+# # GLAD
+# add_library(GLAD "thirdparty/glad.c")
+
+# # Put all libraries into a variable
+# set(LIBS ${GLFW3_LIBRARY} ${OPENGL_LIBRARY} GLAD ${CMAKE_DL_LIBS} ${ASSIMP_LIBRARY} STB_IMAGE)
+
+
 
 
 
