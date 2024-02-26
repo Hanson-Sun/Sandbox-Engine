@@ -1,4 +1,5 @@
 #include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -12,13 +13,14 @@
 #include "renderer/VertexArray.h"
 #include "renderer/VertexBufferLayout.h"
 #include "renderer/Shader.h"
+#include "renderer/Texture.h"
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void processInput(GLFWwindow *window);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_HEIGHT = 900;
 
 int main()
 {
@@ -52,10 +54,10 @@ int main()
 	// -----------
 	{
 		float positions[] = {
-			-0.5f,  -0.5f,
-			0.5f,  -0.5f,
-			0.5f,  0.5f,
-			-0.5f,  0.5f,
+			-0.5f,  -0.5f, 0.0f, 0.0f,
+			0.5f,  -0.5f, 1.0f, 0.0f,
+			0.5f,  0.5f, 1.0f, 1.0f,
+			-0.5f,  0.5f, 0.0f, 1.0f
 		};
 
 		unsigned int indices[] = {
@@ -63,25 +65,39 @@ int main()
 			2, 3, 0
 		};
 
+		GLCall(glEnable(GL_BLEND));
+		GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+
 		unsigned int VAO; 
 		glGenVertexArrays(1, &VAO); 
 		glBindVertexArray(VAO);
 
 		VertexArray va;
-		VertexBuffer vb(positions, 6 * 2 * sizeof(float));
+		VertexBuffer vb(positions, 4 * 4 * sizeof(float));
 		VertexBufferLayout layout;
 		layout.push<float>(2);
+		layout.push<float>(2);
+
 		va.addBuffer(vb, layout);
 
 		IndexBuffer ib(indices, 6);
 
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 
-		Shader shader = Shader("res/shaders/basic.shader");
+		Shader shader = Shader("res/shaders/texture.shader");
 		shader.bind();
-		shader.setUniform4f("u_color", glm::vec4(0.8f, 0.3f, 0.8f, 1.0f));
+		// shader.setUniform<glm::vec4>("u_color", glm::vec4(0.8f, 0.3f, 0.8f, 1.0f));
+
+		Texture tx("res/textures/amog.png");
+		tx.bind();
+		shader.setUniform<int>("u_texture", 0);
+		shader.setUniform<glm::mat4>("u_mvp", glm::ortho(-2.0f, 2.0f, -1.5f, 1.5f, -1.0f, 1.0f));
 
 		va.unbind();
+		vb.unbind();
+		ib.unbind();
+
+		Renderer renderer;
 
 		float r = 0.0f;
 		float increment = 0.05f;
@@ -90,16 +106,19 @@ int main()
 			// input
 			// -----
 			processInput(window);
+			renderer.clear();
 
 			// render
 			// ------
 			// glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-			
-			shader.setUniform4f("u_color", glm::vec4(r, 0.3f, 0.8f, 1.0f));
-			glClear(GL_COLOR_BUFFER_BIT);
+			shader.bind();
+			// shader.setUniform<glm::vec4>("u_color", glm::vec4(r, 0.3f, 0.8f, 1.0f));
+			// 
 
-			va.bind();
-			ib.bind();
+			// va.bind();
+			// ib.bind();
+
+			renderer.draw(va, ib, shader);
 
 			GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
 

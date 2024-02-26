@@ -93,11 +93,32 @@ unsigned int Shader::createShader(const std::string &vertexShader, const std::st
 }
 
 // Set uniforms
-void Shader::setUniform4f(const std::string &name, glm::vec4 vector) {
-    glUniform4f(getUniformLocation(name), vector[0], vector[1], vector[2], vector[3]);
+template<typename T>
+void setUniform(const std::string &name, T value) {
+	assert(false && "Unsupported uniform type");
 }
 
-unsigned int Shader::getUniformLocation(const std::string &name) {
+template<>
+void Shader::setUniform<int>(const std::string &name, int value) {
+	glUniform1i(getUniformLocation(name), value);
+}
+
+template<>
+void Shader::setUniform<float>(const std::string &name, float value) {
+	glUniform1f(getUniformLocation(name), value);
+}
+
+template<>
+void Shader::setUniform<glm::vec4>(const std::string &name, glm::vec4 value) {
+	glUniform4f(getUniformLocation(name), value[0], value[1], value[2], value[3]);
+}
+
+template<>
+void Shader::setUniform<glm::mat4>(const std::string &name, glm::mat4 value) {
+	glUniformMatrix4fv(getUniformLocation(name), 1, GL_FALSE, &value[0][0]);
+}
+
+int Shader::getUniformLocation(const std::string &name) {
     if (m_uniformLocationCache.find(name) != m_uniformLocationCache.end())
         return m_uniformLocationCache[name];
 

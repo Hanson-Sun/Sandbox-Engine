@@ -248,6 +248,30 @@ src/renderer/Shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.s
 .PHONY : src/renderer/Shader.cpp.s
 
+src/renderer/Texture.obj: src/renderer/Texture.cpp.obj
+.PHONY : src/renderer/Texture.obj
+
+# target to build an object file
+src/renderer/Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj
+.PHONY : src/renderer/Texture.cpp.obj
+
+src/renderer/Texture.i: src/renderer/Texture.cpp.i
+.PHONY : src/renderer/Texture.i
+
+# target to preprocess a source file
+src/renderer/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.i
+.PHONY : src/renderer/Texture.cpp.i
+
+src/renderer/Texture.s: src/renderer/Texture.cpp.s
+.PHONY : src/renderer/Texture.s
+
+# target to generate assembly for a file
+src/renderer/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.s
+.PHONY : src/renderer/Texture.cpp.s
+
 src/renderer/VertexArray.obj: src/renderer/VertexArray.cpp.obj
 .PHONY : src/renderer/VertexArray.obj
 
@@ -320,6 +344,30 @@ src/renderer/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s
 .PHONY : src/renderer/VertexBufferLayout.cpp.s
 
+src/stb_image/stb_image.obj: src/stb_image/stb_image.cpp.obj
+.PHONY : src/stb_image/stb_image.obj
+
+# target to build an object file
+src/stb_image/stb_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.obj
+.PHONY : src/stb_image/stb_image.cpp.obj
+
+src/stb_image/stb_image.i: src/stb_image/stb_image.cpp.i
+.PHONY : src/stb_image/stb_image.i
+
+# target to preprocess a source file
+src/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.i
+.PHONY : src/stb_image/stb_image.cpp.i
+
+src/stb_image/stb_image.s: src/stb_image/stb_image.cpp.s
+.PHONY : src/stb_image/stb_image.s
+
+# target to generate assembly for a file
+src/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.s
+.PHONY : src/stb_image/stb_image.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -344,6 +392,9 @@ help:
 	@echo ... src/renderer/Shader.obj
 	@echo ... src/renderer/Shader.i
 	@echo ... src/renderer/Shader.s
+	@echo ... src/renderer/Texture.obj
+	@echo ... src/renderer/Texture.i
+	@echo ... src/renderer/Texture.s
 	@echo ... src/renderer/VertexArray.obj
 	@echo ... src/renderer/VertexArray.i
 	@echo ... src/renderer/VertexArray.s
@@ -353,6 +404,9 @@ help:
 	@echo ... src/renderer/VertexBufferLayout.obj
 	@echo ... src/renderer/VertexBufferLayout.i
 	@echo ... src/renderer/VertexBufferLayout.s
+	@echo ... src/stb_image/stb_image.obj
+	@echo ... src/stb_image/stb_image.i
+	@echo ... src/stb_image/stb_image.s
 .PHONY : help
 
 

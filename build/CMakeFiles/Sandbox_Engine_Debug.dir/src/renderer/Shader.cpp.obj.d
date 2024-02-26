@@ -315,6 +315,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/IndexBuffer.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexArray.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBuffer.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \

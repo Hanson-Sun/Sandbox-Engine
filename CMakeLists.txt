@@ -31,10 +31,13 @@ include_directories(
 	${CMAKE_SOURCE_DIR}/${INC_DIR}/glad
 	${CMAKE_SOURCE_DIR}/${INC_DIR}/KHR
 	${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
+	${CMAKE_SOURCE_DIR}/${INC_DIR}/stb_image
 )
 
 file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")
 file(GLOB_RECURSE SOURCE_FILES "${SRC_DIR}/*.cpp", "{SRC_DIR}/*.c")
+
+message(STATUS "Source files: ${SOURCE_FILES}")
 
 link_directories(${CMAKE_SOURCE_DIR}/${LIB_DIR})
 

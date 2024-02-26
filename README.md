@@ -9,3 +9,7 @@ i need to specify path to gcc because clang is detected by default :o
 sigh cmake is life ruining
 
 I might want to compile glad, glfw, glm myself for better control...
+
+
+Geometry and material abstraction for renderer
+- finish implementing textures

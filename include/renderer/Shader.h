@@ -25,9 +25,11 @@ public:
     void unbind() const;
 
     // Set uniforms
-    void setUniform4f(const std::string &name, glm::vec4 vector);
+    template<typename T>
+    void setUniform(const std::string &name, T value);
+
 private:
-    unsigned int getUniformLocation(const std::string &name);
+    int getUniformLocation(const std::string &name);
 
     ShaderProgramSource parseShader(const std::string file_path);
     unsigned int compileShader(unsigned int type, const std::string &source);
