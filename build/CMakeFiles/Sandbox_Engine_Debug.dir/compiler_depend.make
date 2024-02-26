@@ -442,6 +442,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/detail/type_vec4.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/detail/type_vec4.inl \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/exponential.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_clip_space.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_clip_space.inl \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double2x2.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double2x2_precision.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double2x3.hpp \
@@ -478,6 +480,12 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float4x3_precision.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float4x4.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float4x4_precision.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_projection.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_projection.inl \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_transform.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_transform.inl \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_constants.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_constants.inl \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_int_sized.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_uint_sized.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_bool2.hpp \
@@ -513,6 +521,10 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/fwd.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/geometric.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/glm.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/constants.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/constants.inl \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/matrix_transform.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/matrix_transform.inl \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/integer.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/mat2x2.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/mat2x3.hpp \
@@ -2786,87 +2798,6 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBuffer.h \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBufferLayout.h
 
-CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/stb_image/stb_image.cpp \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
-  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/assert.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/errno.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/limits.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/math.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stddef.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdint.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdio.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
-  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/stb_image/stb_image.h
-
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/detail/type_mat2x4.hpp:
 
@@ -3034,8 +2965,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/detail/func_matrix.in
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/errno.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xmmintrin.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
@@ -3172,8 +3101,6 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/detail/type_vec4.hpp:
 
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Shader.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/mat4x2.hpp:
@@ -3204,8 +3131,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double3x4.
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double3x4_precision.hpp:
 
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double4x2.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_double4x2_precision.hpp:
@@ -3223,6 +3148,8 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float2x2.h
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float2x2_precision.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_float2x3_precision.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_projection.inl:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_uint2_sized.hpp:
 
@@ -3308,11 +3235,15 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_uint3_size
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_int2_sized.hpp:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/constants.hpp:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_uint2.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_int3.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_int4.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_projection.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/vector_int4_sized.hpp:
 
@@ -3361,8 +3292,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/vec3.hpp:
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/vec4.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/vector_relational.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/stb_image/stb_image.cpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/main.cpp:
 
@@ -3442,8 +3371,6 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
@@ -3518,13 +3445,13 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/process.h:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_clip_space.hpp:
+
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
@@ -3541,6 +3468,22 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/wchar.h:
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/KHR/khrplatform.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glad/glad.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_clip_space.inl:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_transform.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/matrix_transform.inl:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_constants.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/ext/scalar_constants.inl:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/constants.inl:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/matrix_transform.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/glm/gtc/matrix_transform.inl:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/IndexBuffer.h:
 
@@ -3559,11 +3502,3 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexArray.cpp:
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBuffer.cpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBufferLayout.cpp:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/emmintrin.h:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdarg.h:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:

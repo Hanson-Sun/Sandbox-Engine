@@ -152,6 +152,30 @@ src/entities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.s
 .PHONY : src/entities.cpp.s
 
+src/external/stb_image/stb_image.obj: src/external/stb_image/stb_image.cpp.obj
+.PHONY : src/external/stb_image/stb_image.obj
+
+# target to build an object file
+src/external/stb_image/stb_image.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj
+.PHONY : src/external/stb_image/stb_image.cpp.obj
+
+src/external/stb_image/stb_image.i: src/external/stb_image/stb_image.cpp.i
+.PHONY : src/external/stb_image/stb_image.i
+
+# target to preprocess a source file
+src/external/stb_image/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.i
+.PHONY : src/external/stb_image/stb_image.cpp.i
+
+src/external/stb_image/stb_image.s: src/external/stb_image/stb_image.cpp.s
+.PHONY : src/external/stb_image/stb_image.s
+
+# target to generate assembly for a file
+src/external/stb_image/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.s
+.PHONY : src/external/stb_image/stb_image.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -199,6 +223,30 @@ src/renderer/IndexBuffer.s: src/renderer/IndexBuffer.cpp.s
 src/renderer/IndexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.s
 .PHONY : src/renderer/IndexBuffer.cpp.s
+
+src/renderer/OrthoCamera.obj: src/renderer/OrthoCamera.cpp.obj
+.PHONY : src/renderer/OrthoCamera.obj
+
+# target to build an object file
+src/renderer/OrthoCamera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj
+.PHONY : src/renderer/OrthoCamera.cpp.obj
+
+src/renderer/OrthoCamera.i: src/renderer/OrthoCamera.cpp.i
+.PHONY : src/renderer/OrthoCamera.i
+
+# target to preprocess a source file
+src/renderer/OrthoCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.i
+.PHONY : src/renderer/OrthoCamera.cpp.i
+
+src/renderer/OrthoCamera.s: src/renderer/OrthoCamera.cpp.s
+.PHONY : src/renderer/OrthoCamera.s
+
+# target to generate assembly for a file
+src/renderer/OrthoCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.s
+.PHONY : src/renderer/OrthoCamera.cpp.s
 
 src/renderer/Renderer.obj: src/renderer/Renderer.cpp.obj
 .PHONY : src/renderer/Renderer.obj
@@ -344,30 +392,6 @@ src/renderer/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s
 .PHONY : src/renderer/VertexBufferLayout.cpp.s
 
-src/stb_image/stb_image.obj: src/stb_image/stb_image.cpp.obj
-.PHONY : src/stb_image/stb_image.obj
-
-# target to build an object file
-src/stb_image/stb_image.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.obj
-.PHONY : src/stb_image/stb_image.cpp.obj
-
-src/stb_image/stb_image.i: src/stb_image/stb_image.cpp.i
-.PHONY : src/stb_image/stb_image.i
-
-# target to preprocess a source file
-src/stb_image/stb_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.i
-.PHONY : src/stb_image/stb_image.cpp.i
-
-src/stb_image/stb_image.s: src/stb_image/stb_image.cpp.s
-.PHONY : src/stb_image/stb_image.s
-
-# target to generate assembly for a file
-src/stb_image/stb_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/stb_image/stb_image.cpp.s
-.PHONY : src/stb_image/stb_image.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,12 +404,18 @@ help:
 	@echo ... src/entities.obj
 	@echo ... src/entities.i
 	@echo ... src/entities.s
+	@echo ... src/external/stb_image/stb_image.obj
+	@echo ... src/external/stb_image/stb_image.i
+	@echo ... src/external/stb_image/stb_image.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
 	@echo ... src/renderer/IndexBuffer.obj
 	@echo ... src/renderer/IndexBuffer.i
 	@echo ... src/renderer/IndexBuffer.s
+	@echo ... src/renderer/OrthoCamera.obj
+	@echo ... src/renderer/OrthoCamera.i
+	@echo ... src/renderer/OrthoCamera.s
 	@echo ... src/renderer/Renderer.obj
 	@echo ... src/renderer/Renderer.i
 	@echo ... src/renderer/Renderer.s
@@ -404,9 +434,6 @@ help:
 	@echo ... src/renderer/VertexBufferLayout.obj
 	@echo ... src/renderer/VertexBufferLayout.i
 	@echo ... src/renderer/VertexBufferLayout.s
-	@echo ... src/stb_image/stb_image.obj
-	@echo ... src/stb_image/stb_image.i
-	@echo ... src/stb_image/stb_image.s
 .PHONY : help
 
 

@@ -26,12 +26,14 @@ message(STATUS "Linker: ${CMAKE_LINKER}")
 # i should switch to recursive directory search
 include_directories(
     ${CMAKE_SOURCE_DIR}/${INC_DIR}
-    ${CMAKE_SOURCE_DIR}/${INC_DIR}/glm
-    ${CMAKE_SOURCE_DIR}/${INC_DIR}/GLFW
-	${CMAKE_SOURCE_DIR}/${INC_DIR}/glad
-	${CMAKE_SOURCE_DIR}/${INC_DIR}/KHR
-	${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
-	${CMAKE_SOURCE_DIR}/${INC_DIR}/stb_image
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/glm
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/GLFW
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/glad
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/KHR
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/stb_image
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/window
 )
 
 file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")
