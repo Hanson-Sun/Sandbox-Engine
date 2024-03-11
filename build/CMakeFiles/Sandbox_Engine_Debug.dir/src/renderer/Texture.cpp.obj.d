@@ -143,6 +143,11 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Texture.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/stb_image/stb_image.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Renderer.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/glm.hpp \
@@ -319,4 +324,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
- C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/OrthoCamera.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/FrameBuffer.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/Entity.h

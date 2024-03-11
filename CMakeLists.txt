@@ -34,6 +34,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/external/stb_image
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/window
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/core
 )
 
 file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")

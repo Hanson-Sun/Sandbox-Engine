@@ -100,21 +100,25 @@ void setUniform(const std::string &name, T value) {
 
 template<>
 void Shader::setUniform<int>(const std::string &name, int value) {
+	GLCall(glUseProgram(m_rendererID));
 	glUniform1i(getUniformLocation(name), value);
 }
 
 template<>
 void Shader::setUniform<float>(const std::string &name, float value) {
+	GLCall(glUseProgram(m_rendererID));
 	glUniform1f(getUniformLocation(name), value);
 }
 
 template<>
 void Shader::setUniform<glm::vec4>(const std::string &name, glm::vec4 value) {
+	GLCall(glUseProgram(m_rendererID));
 	glUniform4f(getUniformLocation(name), value[0], value[1], value[2], value[3]);
 }
 
 template<>
 void Shader::setUniform<glm::mat4>(const std::string &name, glm::mat4 value) {
+	GLCall(glUseProgram(m_rendererID));
 	glUniformMatrix4fv(getUniformLocation(name), 1, GL_FALSE, &value[0][0]);
 }
 

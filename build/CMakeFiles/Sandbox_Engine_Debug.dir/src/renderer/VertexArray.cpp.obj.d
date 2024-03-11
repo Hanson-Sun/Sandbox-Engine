@@ -323,4 +323,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
- C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/OrthoCamera.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Texture.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/FrameBuffer.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/Entity.h

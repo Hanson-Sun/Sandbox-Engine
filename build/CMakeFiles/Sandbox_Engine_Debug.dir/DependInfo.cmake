@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/entities.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.obj.d"
+  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/Entity.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj.d"
+  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/FrameBuffer.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/external/stb_image/stb_image.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/main.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/IndexBuffer.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj.d"
@@ -19,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexArray.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBuffer.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBufferLayout.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj.d"
+  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/window/Window.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

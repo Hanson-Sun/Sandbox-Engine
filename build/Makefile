@@ -128,29 +128,53 @@ Sandbox_Engine_Debug/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/build
 .PHONY : Sandbox_Engine_Debug/fast
 
-src/entities.obj: src/entities.cpp.obj
-.PHONY : src/entities.obj
+src/core/Entity.obj: src/core/Entity.cpp.obj
+.PHONY : src/core/Entity.obj
 
 # target to build an object file
-src/entities.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.obj
-.PHONY : src/entities.cpp.obj
+src/core/Entity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj
+.PHONY : src/core/Entity.cpp.obj
 
-src/entities.i: src/entities.cpp.i
-.PHONY : src/entities.i
+src/core/Entity.i: src/core/Entity.cpp.i
+.PHONY : src/core/Entity.i
 
 # target to preprocess a source file
-src/entities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.i
-.PHONY : src/entities.cpp.i
+src/core/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.i
+.PHONY : src/core/Entity.cpp.i
 
-src/entities.s: src/entities.cpp.s
-.PHONY : src/entities.s
+src/core/Entity.s: src/core/Entity.cpp.s
+.PHONY : src/core/Entity.s
 
 # target to generate assembly for a file
-src/entities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/entities.cpp.s
-.PHONY : src/entities.cpp.s
+src/core/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.s
+.PHONY : src/core/Entity.cpp.s
+
+src/core/FrameBuffer.obj: src/core/FrameBuffer.cpp.obj
+.PHONY : src/core/FrameBuffer.obj
+
+# target to build an object file
+src/core/FrameBuffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj
+.PHONY : src/core/FrameBuffer.cpp.obj
+
+src/core/FrameBuffer.i: src/core/FrameBuffer.cpp.i
+.PHONY : src/core/FrameBuffer.i
+
+# target to preprocess a source file
+src/core/FrameBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.i
+.PHONY : src/core/FrameBuffer.cpp.i
+
+src/core/FrameBuffer.s: src/core/FrameBuffer.cpp.s
+.PHONY : src/core/FrameBuffer.s
+
+# target to generate assembly for a file
+src/core/FrameBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.s
+.PHONY : src/core/FrameBuffer.cpp.s
 
 src/external/stb_image/stb_image.obj: src/external/stb_image/stb_image.cpp.obj
 .PHONY : src/external/stb_image/stb_image.obj
@@ -392,6 +416,30 @@ src/renderer/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s
 .PHONY : src/renderer/VertexBufferLayout.cpp.s
 
+src/window/Window.obj: src/window/Window.cpp.obj
+.PHONY : src/window/Window.obj
+
+# target to build an object file
+src/window/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj
+.PHONY : src/window/Window.cpp.obj
+
+src/window/Window.i: src/window/Window.cpp.i
+.PHONY : src/window/Window.i
+
+# target to preprocess a source file
+src/window/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.i
+.PHONY : src/window/Window.cpp.i
+
+src/window/Window.s: src/window/Window.cpp.s
+.PHONY : src/window/Window.s
+
+# target to generate assembly for a file
+src/window/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.s
+.PHONY : src/window/Window.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -401,9 +449,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sandbox_Engine_Debug
-	@echo ... src/entities.obj
-	@echo ... src/entities.i
-	@echo ... src/entities.s
+	@echo ... src/core/Entity.obj
+	@echo ... src/core/Entity.i
+	@echo ... src/core/Entity.s
+	@echo ... src/core/FrameBuffer.obj
+	@echo ... src/core/FrameBuffer.i
+	@echo ... src/core/FrameBuffer.s
 	@echo ... src/external/stb_image/stb_image.obj
 	@echo ... src/external/stb_image/stb_image.i
 	@echo ... src/external/stb_image/stb_image.s
@@ -434,6 +485,9 @@ help:
 	@echo ... src/renderer/VertexBufferLayout.obj
 	@echo ... src/renderer/VertexBufferLayout.i
 	@echo ... src/renderer/VertexBufferLayout.s
+	@echo ... src/window/Window.obj
+	@echo ... src/window/Window.i
+	@echo ... src/window/Window.s
 .PHONY : help
 
 

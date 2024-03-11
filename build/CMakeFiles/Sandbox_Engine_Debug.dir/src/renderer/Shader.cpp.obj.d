@@ -318,6 +318,15 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/IndexBuffer.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexArray.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBuffer.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/OrthoCamera.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Texture.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/FrameBuffer.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/Entity.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
