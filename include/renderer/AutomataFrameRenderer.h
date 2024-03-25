@@ -13,6 +13,8 @@ public:
     ~AutomataFrameRenderer();
 
 
+    // void render();
+    // void clear();
 
 private:
     std::vector<Shader> shaders;

@@ -128,6 +128,30 @@ Sandbox_Engine_Debug/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/build
 .PHONY : Sandbox_Engine_Debug/fast
 
+src/automata/Solver.obj: src/automata/Solver.cpp.obj
+.PHONY : src/automata/Solver.obj
+
+# target to build an object file
+src/automata/Solver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj
+.PHONY : src/automata/Solver.cpp.obj
+
+src/automata/Solver.i: src/automata/Solver.cpp.i
+.PHONY : src/automata/Solver.i
+
+# target to preprocess a source file
+src/automata/Solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.i
+.PHONY : src/automata/Solver.cpp.i
+
+src/automata/Solver.s: src/automata/Solver.cpp.s
+.PHONY : src/automata/Solver.s
+
+# target to generate assembly for a file
+src/automata/Solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.s
+.PHONY : src/automata/Solver.cpp.s
+
 src/core/Entity.obj: src/core/Entity.cpp.obj
 .PHONY : src/core/Entity.obj
 
@@ -449,6 +473,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sandbox_Engine_Debug
+	@echo ... src/automata/Solver.obj
+	@echo ... src/automata/Solver.i
+	@echo ... src/automata/Solver.s
 	@echo ... src/core/Entity.obj
 	@echo ... src/core/Entity.i
 	@echo ... src/core/Entity.s

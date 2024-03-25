@@ -9,17 +9,16 @@
 
 class FrameBuffer {
 public:
-    std::vector<Entity> entities;
-    std::vector<Shader*> shaders;
+    std::vector<Entity>* entities;
 
     unsigned int m_width, m_height;
-    FrameBuffer(unsigned int width, unsigned int height, std::vector<Entity> &entities);
+    FrameBuffer(unsigned int width, unsigned int height, std::vector<Entity>* entities, unsigned int divisor = 1);
     ~FrameBuffer();
 
-    void update(std::vector<Entity> &entities, unsigned int width, unsigned int height);
+    void update(std::vector<Entity>* entities, unsigned int width, unsigned int height);
+    void update(unsigned int x1, unsigned int y1, unsigned int x2, unsigned int y2);
+    void updateTextureBuffers();
     Entity &getEntity(unsigned int row, unsigned int col);
-
-    void addShader(Shader* shader);
 
     void bind() const;
     void unbind() const;
@@ -31,9 +30,7 @@ private:
     Texture* m_texture;
     VertexArray* m_vertex_array;
     VertexBuffer* m_vertex_buffer;
-    IndexBuffer* m_index_buffer;
 
     unsigned int m_frame_buffer_ID;
 
-    void updateTexture();
 };

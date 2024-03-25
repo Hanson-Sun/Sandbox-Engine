@@ -24,6 +24,16 @@ public:
     void bind() const;
     void unbind() const;
 
+    // base case
+    void setUniforms() const {}
+
+    // Recursive template function
+    template<typename T, typename... Args>
+    void setUniforms(const std::string& name, T value, Args... args) {
+        setUniform(name, value);  // set the uniform
+        setUniforms(args...);  // recursive call using pack expansion syntax
+    }
+
     // Set uniforms
     template<typename T>
     void setUniform(const std::string &name, T value);

@@ -92,6 +92,7 @@ unsigned int Shader::createShader(const std::string &vertexShader, const std::st
 	return program;
 }
 
+
 // Set uniforms
 template<typename T>
 void setUniform(const std::string &name, T value) {
@@ -114,6 +115,12 @@ template<>
 void Shader::setUniform<glm::vec4>(const std::string &name, glm::vec4 value) {
 	GLCall(glUseProgram(m_rendererID));
 	glUniform4f(getUniformLocation(name), value[0], value[1], value[2], value[3]);
+}
+
+template<>
+void Shader::setUniform<glm::vec2>(const std::string &name, glm::vec2 value) {
+	GLCall(glUseProgram(m_rendererID));
+	glUniform2f(getUniformLocation(name), value[0], value[1]);
 }
 
 template<>

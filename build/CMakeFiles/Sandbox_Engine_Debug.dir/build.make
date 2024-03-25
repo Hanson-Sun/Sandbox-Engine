@@ -68,11 +68,26 @@ include CMakeFiles/Sandbox_Engine_Debug.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Sandbox_Engine_Debug.dir/flags.make
 
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/flags.make
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/automata/Solver.cpp
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\automata\Solver.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\automata\Solver.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\automata\Solver.cpp
+
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.i"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\automata\Solver.cpp > CMakeFiles\Sandbox_Engine_Debug.dir\src\automata\Solver.cpp.i
+
+CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.s"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\automata\Solver.cpp -o CMakeFiles\Sandbox_Engine_Debug.dir\src\automata\Solver.cpp.s
+
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/flags.make
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/Entity.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\core\Entity.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\core\Entity.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\core\Entity.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: CMakeFiles/San
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/FrameBuffer.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\core\FrameBuffer.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\core\FrameBuffer.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\core\FrameBuffer.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: CM
 CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/external/stb_image/stb_image.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\external\stb_image\stb_image.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\external\stb_image\stb_image.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\external\stb_image\stb_image.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: CMakeFiles/Sandbox_Engine_
 CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/main.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\main.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\main.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\main.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: CMakeFiles
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/IndexBuffer.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\IndexBuffer.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\IndexBuffer.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\IndexBuffer.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: CMakeFiles
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/OrthoCamera.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\OrthoCamera.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\OrthoCamera.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\OrthoCamera.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: CMakeFiles/Sa
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Renderer.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Renderer.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Renderer.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\Renderer.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: CMakeFiles/Sand
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Shader.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Shader.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Shader.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\Shader.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: CMakeFiles/San
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Texture.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Texture.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\Texture.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\Texture.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.i: cmake_force
@@ -207,7 +222,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: CMakeFiles
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexArray.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexArray.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexArray.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\VertexArray.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: CMakeFile
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBuffer.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexBuffer.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexBuffer.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\VertexBuffer.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: CMa
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/VertexBufferLayout.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexBufferLayout.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexBufferLayout.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\VertexBufferLayout.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbo
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/window/Window.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\window\Window.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\window\Window.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\window\Window.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.i: cmake_force
@@ -265,6 +280,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.s: cmake_force
 
 # Object files for target Sandbox_Engine_Debug
 Sandbox_Engine_Debug_OBJECTS = \
+"CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj" \
@@ -282,6 +298,7 @@ Sandbox_Engine_Debug_OBJECTS = \
 # External object files for target Sandbox_Engine_Debug
 Sandbox_Engine_Debug_EXTERNAL_OBJECTS =
 
+Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj
@@ -301,7 +318,7 @@ Sandbox_Engine_Debug.exe: C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib/lib
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/linkLibs.rsp
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/objects1.rsp
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Sandbox_Engine_Debug.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Sandbox_Engine_Debug.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sandbox_Engine_Debug.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/docto/Documents/GitHub/Sandbox-Engine/res C:/Users/docto/Documents/GitHub/Sandbox-Engine/build/res
 

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/automata/Solver.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/Entity.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/FrameBuffer.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj.d"
   "C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/external/stb_image/stb_image.cpp" "CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj" "gcc" "CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj.d"

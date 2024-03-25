@@ -324,6 +324,11 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/unistd.h \
+ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/io.h \
+ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/getopt.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Renderer.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/IndexBuffer.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexArray.h \
@@ -346,4 +351,5 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: \
  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/FrameBuffer.h \
  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/Entity.h \
- C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBufferLayout.h
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBufferLayout.h \
+ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/automata/Solver.h

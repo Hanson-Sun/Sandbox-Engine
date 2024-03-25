@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <unistd.h>
 
 #include "renderer/Renderer.h"
 #include "renderer/VertexBuffer.h"
@@ -16,6 +17,7 @@
 #include "renderer/Texture.h"
 #include "renderer/OrthoCamera.h"
 #include "FrameBuffer.h"
+#include "Solver.h"
 
 
 #include "core/Entity.h"
@@ -75,38 +77,92 @@ int main()
 
 	// render loop
 	{
-		Renderer renderer;
+		unsigned int divisor = 5;
+
+		unsigned int width = SCR_WIDTH / divisor;
+		unsigned int height = SCR_HEIGHT / divisor;
 
 		OrthoCamera cam(0, 1 * SCR_WIDTH, 0, 1 * SCR_HEIGHT);
 		cam.setPosition({0, 0, 1});
 		cam.setRotation(0);
 
-		unsigned int entity_count = SCR_HEIGHT / 4 * SCR_WIDTH / 4;
-		std::vector<Entity> entities(entity_count);
-		for (size_t i = 0; i < entity_count; i++) {
-			unsigned char color[4] = { static_cast<float>(rand()) / RAND_MAX * 255,
-							   		   static_cast<float>(rand()) / RAND_MAX * 255,
-							   		   static_cast<float>(rand()) / RAND_MAX * 255,
-							  		   255 };
-			entities[i] = Entity(EntityType::CUSTOM, color);
-		}
-			
-		Shader shader = Shader("res/shaders/texture.shader");
-		shader.setUniform<int>("u_texture", 0);
-		shader.setUniform<glm::mat4>("u_mvp", cam.getViewProjectionMatrix());
 
-		FrameBuffer fb(SCR_WIDTH, SCR_HEIGHT, entities);
+		Renderer renderer;
+		unsigned int VAO; 
+		GLCall(glGenVertexArrays(1, &VAO)); 
+		GLCall(glBindVertexArray(VAO));
+
+		
+		std::vector<Entity> entities(width * height);
+		for (size_t i = 0; i < height * width; i++) {
+
+
+			if (rand() < 5000) {
+				// unsigned char yellow[4] = {255, 255, 0, 255};
+				unsigned char color[4] = { static_cast<float>(rand()) / RAND_MAX * 255,
+							static_cast<float>(rand()) / RAND_MAX * 255,
+							static_cast<float>(rand()) / RAND_MAX * 255,
+							255 };
+				Entity ent = Entity(EntityType::SOLID, color);
+				ent.velocity = {static_cast<float>(rand()) / RAND_MAX * 40 - 20, 0};
+				ent.elasticity = 0.95;
+				entities[i] = ent;
+			} else {
+				unsigned char color[4] = { 0, 0, 0, 255 };
+				entities[i] = Entity(EntityType::EMPTY, color);
+			}
+		}
+
+		unsigned char yellow[4] = {255,255,0,255 };
+		unsigned char red[4] = {255,0,0,255 };
+
+		Entity ent1 = Entity(EntityType::SOLID, yellow);
+		Entity ent2 = Entity(EntityType::SOLID, red);
+
+		ent1.velocity = {-20, 0};
+		ent2.velocity = {20, 0};
+
+		entities[width * (height - 10) + 1] 		= ent1;
+		entities[width * (height - 10) + width - 2] = ent2;
+
+		// Entity ent = Entity(EntityType::SOLID, yellow);
+		// ent.velocity = {20, 0};
+		// entities[width * (height - 10) + 30] = ent;
+
+
+
+		Shader shader = Shader("res/shaders/texture.shader");
+		shader.setUniforms("u_texture", 0, 
+						    // "u_textureSize", glm::vec2(width, height),
+						    "u_mvp", cam.getViewProjectionMatrix());
+		// shader.setUniform<int>("u_texture", 0);
+		// shader.setUniform<glm::vec2>("u_textureSize", {width, height});
+		// shader.setUniform<glm::mat4>("u_mvp", cam.getViewProjectionMatrix());
+
+
+
+		printf("Entities: %d\n", entities.size());
+
+		FrameBuffer fb(SCR_WIDTH, SCR_HEIGHT, &entities, divisor);
+		Solver solver(&entities, width, height, 0.05);
 
 		while (!glfwWindowShouldClose(window)) {	
 
+			
 			processInput(window);
 			renderer.clear();
 
-
+			
+			fb.updateTextureBuffers();
 			renderer.draw(fb, shader);
+			usleep(100000);
 
+			solver.update();
 
-
+			// renderer.draw(*m_vertex_array, *m_index_buffer, *m_texture, shader,
+			// 			  "u_texture", 0,
+			// 			  "u_textureSize", glm::vec2(width, height),
+			// 			  "u_mvp", cam.getViewProjectionMatrix());
 			// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
 			// -------------------------------------------------------------------------------
 			glfwSwapBuffers(window);
@@ -193,7 +249,6 @@ int main()
 		ib.unbind();
 
 		Texture tx("res/textures/amog.png");
-		tx.bind();
 
 		Renderer renderer;
 
@@ -216,7 +271,7 @@ int main()
 			// va.bind();
 			// ib.bind();
 
-			renderer.draw(va, ib, shader);
+			renderer.draw(va, ib, tx, shader);
 
 			GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
 

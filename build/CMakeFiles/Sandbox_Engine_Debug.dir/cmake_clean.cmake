@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj"
+  "CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj.d"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj.d"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj"

@@ -35,6 +35,7 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/renderer
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/window
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/core
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/automata
 )
 
 file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")
