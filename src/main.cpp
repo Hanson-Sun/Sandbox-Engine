@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <chrono>
 #include <unistd.h>
 
 #include "renderer/Renderer.h"
@@ -26,14 +27,17 @@ void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 void processInput(GLFWwindow *window);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 900;
+const unsigned int SCR_WIDTH = 1920;
+const unsigned int SCR_HEIGHT = 1080;
+float gravity = -5;
 
 
 void processInput(GLFWwindow *window)
 {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
+	if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS)
+		gravity = 5;
 }
 
 // glfw: whenever the window size changed (by OS or user resize) this callback function executes
@@ -77,7 +81,7 @@ int main()
 
 	// render loop
 	{
-		unsigned int divisor = 5;
+		unsigned int divisor = 2;
 
 		unsigned int width = SCR_WIDTH / divisor;
 		unsigned int height = SCR_HEIGHT / divisor;
@@ -97,7 +101,7 @@ int main()
 		for (size_t i = 0; i < height * width; i++) {
 
 
-			if (rand() < 5000) {
+			if (rand() < 13000) {
 				// unsigned char yellow[4] = {255, 255, 0, 255};
 				unsigned char color[4] = { static_cast<float>(rand()) / RAND_MAX * 255,
 							static_cast<float>(rand()) / RAND_MAX * 255,
@@ -105,7 +109,9 @@ int main()
 							255 };
 				Entity ent = Entity(EntityType::SOLID, color);
 				ent.velocity = {static_cast<float>(rand()) / RAND_MAX * 40 - 20, 0};
-				ent.elasticity = 0.95;
+				ent.elasticity = 0.995;
+				ent.friction = 0.005;
+				ent.mass = static_cast<float>(rand()) / RAND_MAX * 10 + 10;
 				entities[i] = ent;
 			} else {
 				unsigned char color[4] = { 0, 0, 0, 255 };
@@ -113,17 +119,31 @@ int main()
 			}
 		}
 
+		// for (size_t i = 0; i < width; i++) {
+		// 	unsigned char color[4] = { static_cast<float>(rand()) / RAND_MAX * 255,
+		// 				static_cast<float>(rand()) / RAND_MAX * 255,
+		// 				static_cast<float>(rand()) / RAND_MAX * 255,
+		// 				255 };
+		// 	Entity ent = Entity(EntityType::SOLID, color);
+		// 	ent.velocity = {static_cast<float>(rand()) / RAND_MAX * 40 - 20, 0};
+		// 	ent.elasticity = 0.98;
+		// 	ent.friction = 0.1;
+		// 	entities[i] = ent;
+		// }
+
 		unsigned char yellow[4] = {255,255,0,255 };
 		unsigned char red[4] = {255,0,0,255 };
 
 		Entity ent1 = Entity(EntityType::SOLID, yellow);
 		Entity ent2 = Entity(EntityType::SOLID, red);
 
-		ent1.velocity = {-20, 0};
-		ent2.velocity = {20, 0};
+		// ent1.velocity = {-20, 0};
+		// ent2.velocity = {20, 0};
 
-		entities[width * (height - 10) + 1] 		= ent1;
-		entities[width * (height - 10) + width - 2] = ent2;
+		ent1.friction = ent2.friction = 0.5;
+
+		entities[width * (height * 0.0) + 1] 		= ent1;
+		entities[width * (height * 0.0) + width - 2] = ent2;
 
 		// Entity ent = Entity(EntityType::SOLID, yellow);
 		// ent.velocity = {20, 0};
@@ -131,7 +151,7 @@ int main()
 
 
 
-		Shader shader = Shader("res/shaders/texture.shader");
+		Shader shader = Shader("C:\\Users\\docto\\Documents\\GitHub\\Sandbox-Engine\\res\\shaders\\texture.shader");
 		shader.setUniforms("u_texture", 0, 
 						    // "u_textureSize", glm::vec2(width, height),
 						    "u_mvp", cam.getViewProjectionMatrix());
@@ -147,17 +167,35 @@ int main()
 		Solver solver(&entities, width, height, 0.05);
 
 		while (!glfwWindowShouldClose(window)) {	
-
-			
+			std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
 			processInput(window);
-			renderer.clear();
+			// renderer.clear();
+			double xpos, ypos;
+			glfwGetCursorPos(window, &xpos, &ypos);
+			ypos = ypos;
+			xpos /= divisor;
+			ypos /= divisor;
+
+			// printf("X: %f, Y: %f\n", xpos, ypos);
+
+			if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS) {
+				// The left mouse button is being pressed.
+				Entity ent = Entity(EntityType::SOLID, red);
+				ent.velocity = {100, -5000};
+				ent.elasticity = 0.1;
+				ent.mass = 1000;
+				ent.friction = 0.1;
+				entities[width * (int)(height - ypos) + (int)xpos] = ent;
+				printf("Added entity at %d, %d\n", (int)xpos, (int)ypos);
+			}
 
 			
 			fb.updateTextureBuffers();
 			renderer.draw(fb, shader);
-			usleep(100000);
+			// usleep(100000);
 
 			solver.update();
+			// solver.update(0, height);
 
 			// renderer.draw(*m_vertex_array, *m_index_buffer, *m_texture, shader,
 			// 			  "u_texture", 0,
@@ -167,6 +205,10 @@ int main()
 			// -------------------------------------------------------------------------------
 			glfwSwapBuffers(window);
 			glfwPollEvents();
+			std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
+			double frameTimeInSeconds = std::chrono::duration_cast<std::chrono::microseconds>(end - begin).count() / 1000000.0;
+			printf("FPS: %f\n", 1.0 / frameTimeInSeconds);
+
 		}
 	}
 	glfwTerminate();

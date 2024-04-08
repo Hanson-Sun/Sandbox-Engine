@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 
-CXX_FLAGS = -Wall -Wextra -pedantic -g -std=gnu++17
+CXX_FLAGS = -Wall -Wextra -g -std=gnu++20
 

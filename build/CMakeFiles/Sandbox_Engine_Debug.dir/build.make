@@ -263,11 +263,26 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\renderer\VertexBufferLayout.cpp -o CMakeFiles\Sandbox_Engine_Debug.dir\src\renderer\VertexBufferLayout.cpp.s
 
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/flags.make
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/utils/ThreadPool.cpp
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\utils\ThreadPool.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\utils\ThreadPool.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\utils\ThreadPool.cpp
+
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.i"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\utils\ThreadPool.cpp > CMakeFiles\Sandbox_Engine_Debug.dir\src\utils\ThreadPool.cpp.i
+
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.s"
+	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\utils\ThreadPool.cpp -o CMakeFiles\Sandbox_Engine_Debug.dir\src\utils\ThreadPool.cpp.s
+
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/flags.make
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/includes_CXX.rsp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/window/Window.cpp
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: CMakeFiles/Sandbox_Engine_Debug.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
 	C:\ProgramData\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj -MF CMakeFiles\Sandbox_Engine_Debug.dir\src\window\Window.cpp.obj.d -o CMakeFiles\Sandbox_Engine_Debug.dir\src\window\Window.cpp.obj -c C:\Users\docto\Documents\GitHub\Sandbox-Engine\src\window\Window.cpp
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.i: cmake_force
@@ -293,6 +308,7 @@ Sandbox_Engine_Debug_OBJECTS = \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj" \
+"CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj" \
 "CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
 
 # External object files for target Sandbox_Engine_Debug
@@ -311,14 +327,15 @@ Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Textu
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj
+Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/build.make
 Sandbox_Engine_Debug.exe: C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib/libglfw3.a
-Sandbox_Engine_Debug.exe: C:/Users/docto/Documents/GitHub/Sandbox-Engine/lib/libglad.a
+Sandbox_Engine_Debug.exe: libGLAD.a
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/linkLibs.rsp
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/objects1.rsp
 Sandbox_Engine_Debug.exe: CMakeFiles/Sandbox_Engine_Debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable Sandbox_Engine_Debug.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Sandbox_Engine_Debug.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sandbox_Engine_Debug.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/docto/Documents/GitHub/Sandbox-Engine/res C:/Users/docto/Documents/GitHub/Sandbox-Engine/build/res
 

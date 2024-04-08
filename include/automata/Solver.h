@@ -16,6 +16,8 @@ public:
     ~Solver();
 
     void update();
+    void update(int row_begin, int row_end);
+
 
     float time_step;
 private:
@@ -38,6 +40,8 @@ private:
     bool applyForces( int row,  int col);
 
     bool applyDelta( int &row,  int &col, int delta_row, int delta_col);
+
+    bool applyFriction( int row,  int col);
 
     void checkCollision(int row, int col, int dy, int dx);
     void applyCollision( int row1,  int col1,  int row2,  int col2);

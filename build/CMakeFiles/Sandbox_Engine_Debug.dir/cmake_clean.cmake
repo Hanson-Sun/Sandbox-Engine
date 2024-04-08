@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj.d"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj.d"
+  "CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj"
+  "CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj.d"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj"
   "CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj.d"
   "Sandbox_Engine_Debug.exe"

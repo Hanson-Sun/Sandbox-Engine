@@ -39,6 +39,7 @@ struct Entity {
     bool is_moveable;
     bool is_destructable;
     bool is_updated;
+    bool is_active;
 
     Entity();
     ~Entity();

@@ -13,7 +13,15 @@
 #include "renderer/Texture.h"
 #include "core/FrameBuffer.h"
 
-#define ASSERT(x) if (!(x)) __builtin_trap();
+#ifdef _MSC_VER
+    // MSVC
+    #include <intrin.h>
+    #define ASSERT(x) if (!(x)) __debugbreak();
+#else
+    // GCC
+    #define ASSERT(x) if (!(x)) __builtin_trap();
+#endif
+
 #define GLCall(x) GlClearError();\
 	x;\
 	ASSERT(GlLogCall(#x, __FILE__, __LINE__))

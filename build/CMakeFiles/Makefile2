@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\docto\Documents\GitHub\Sandbox-Engine\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/GLAD.dir/all
 all: CMakeFiles/Sandbox_Engine_Debug.dir/all
 .PHONY : all
 
@@ -70,22 +71,49 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/GLAD.dir/clean
 clean: CMakeFiles/Sandbox_Engine_Debug.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GLAD.dir
+
+# All Build rule for target.
+CMakeFiles/GLAD.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=1,2 "Built target GLAD"
+.PHONY : CMakeFiles/GLAD.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GLAD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GLAD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles 0
+.PHONY : CMakeFiles/GLAD.dir/rule
+
+# Convenience name for target.
+GLAD: CMakeFiles/GLAD.dir/rule
+.PHONY : GLAD
+
+# clean rule for target.
+CMakeFiles/GLAD.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/clean
+.PHONY : CMakeFiles/GLAD.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Sandbox_Engine_Debug.dir
 
 # All Build rule for target.
-CMakeFiles/Sandbox_Engine_Debug.dir/all:
+CMakeFiles/Sandbox_Engine_Debug.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Sandbox_Engine_Debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target Sandbox_Engine_Debug"
 .PHONY : CMakeFiles/Sandbox_Engine_Debug.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sandbox_Engine_Debug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sandbox_Engine_Debug.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\docto\Documents\GitHub\Sandbox-Engine\build\CMakeFiles 0
 .PHONY : CMakeFiles/Sandbox_Engine_Debug.dir/rule

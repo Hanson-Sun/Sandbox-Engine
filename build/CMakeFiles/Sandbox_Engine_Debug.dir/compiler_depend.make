@@ -3,60 +3,91 @@
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/automata/Solver.cpp \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
@@ -64,7 +95,11 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
@@ -76,37 +111,53 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/latch \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/semaphore \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stop_token \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/thread \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
@@ -122,6 +173,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -170,6 +222,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/semaphore.h \
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/signal.h \
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stddef.h \
   C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdint.h \
@@ -316,21 +369,26 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/automata/Solver.cpp.obj: C:/Users/docto/
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vec2.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vec3.hpp \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vec4.hpp \
-  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vector_relational.hpp
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vector_relational.hpp \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/utils/ThreadPool.h
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/Entity.cpp \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
@@ -340,6 +398,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: C:/Users/docto/Docu
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cfloat \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
@@ -348,6 +408,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/Entity.cpp.obj: C:/Users/docto/Docu
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
@@ -553,11 +614,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -570,6 +633,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -600,6 +666,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -622,6 +690,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/core/FrameBuffer.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -857,21 +926,27 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: C:
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
@@ -879,6 +954,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: C:
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/math.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
@@ -935,9 +1011,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/external/stb_image/stb_image.cpp.obj: C:
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/stb_image/stb_image.h
 
 CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/main.cpp \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
@@ -945,6 +1025,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
@@ -964,11 +1046,16 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -977,29 +1064,42 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
@@ -1009,13 +1109,18 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cfloat \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
@@ -1024,19 +1129,27 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
@@ -1060,6 +1173,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
@@ -1073,7 +1187,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/main.cpp.obj: C:/Users/docto/Documents/G
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
@@ -1315,11 +1431,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -1332,6 +1450,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -1362,6 +1483,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -1384,6 +1507,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/IndexBuffer.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -1618,15 +1742,19 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
@@ -1636,6 +1764,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cfloat \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
@@ -1644,6 +1774,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/OrthoCamera.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
@@ -1861,11 +1992,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: C:/Users/doct
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -1878,6 +2011,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: C:/Users/doct
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -1908,6 +2044,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: C:/Users/doct
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -1930,6 +2068,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Renderer.cpp.obj: C:/Users/doct
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -2190,11 +2329,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -2207,6 +2348,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -2238,6 +2382,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -2261,6 +2407,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Shader.cpp.obj: C:/Users/docto/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
@@ -2522,11 +2669,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -2539,6 +2688,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -2569,6 +2721,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -2591,6 +2745,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/Texture.cpp.obj: C:/Users/docto
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -2850,11 +3005,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -2867,6 +3024,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -2897,6 +3057,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -2919,6 +3081,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexArray.cpp.obj: C:/Users/d
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -3178,11 +3341,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: C:/Users/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -3195,6 +3360,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: C:/Users/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -3225,6 +3393,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: C:/Users/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -3247,6 +3417,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBuffer.cpp.obj: C:/Users/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -3505,11 +3676,13 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
@@ -3522,6 +3695,9 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
@@ -3552,6 +3728,8 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
@@ -3574,6 +3752,7 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
   C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
@@ -3805,48 +3984,287 @@ CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.obj: C:/
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBuffer.h \
   C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBufferLayout.h
 
+CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/utils/ThreadPool.cpp \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cctype \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/numeric_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/semaphore \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stop_token \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/thread \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+  C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/locale.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/semaphore.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/signal.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdint.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/time.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/wchar.h \
+  C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/utils/ThreadPool.h
+
 CMakeFiles/Sandbox_Engine_Debug.dir/src/window/Window.cpp.obj: C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/window/Window.cpp
 
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double4x3.hpp:
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x4.hpp:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double4x3.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat4x4.inl:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/automata/Solver.cpp:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec1.hpp:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat3x3.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint4_sized.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h:
+
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat2x3.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/alloc_traits.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x2.inl:
 
@@ -3854,19 +4272,25 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/locale.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_timed_wait.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h:
+
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_transform.hpp:
 
@@ -3890,27 +4314,43 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_mall
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_projection.inl:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double2_precision.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ios_base.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Shader.cpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int2_sized.hpp:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/compute_vector_relational.hpp:
+
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h:
 
@@ -3920,63 +4360,97 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/VertexBuffer.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x3.inl:
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/gtc/matrix_transform.hpp:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/automata/Solver.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_classes.tcc:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/localefwd.h:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/scalar_int_sized.hpp:
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_bool3.hpp:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_lock.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memory_resource.h:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/scalar_int_sized.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double4x4_precision.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/memoryfwd.h:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/KHR/khrplatform.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int2.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc:
 
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double4.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_float4_precision.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/semaphore_base.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h:
+
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x3.inl:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x3.inl:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec1.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/func_packing.inl:
 
@@ -3984,19 +4458,63 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/func_
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/KHR/khrplatform.h:
+
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/semaphore.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x4.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_transform.inl:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf_iterator.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/string_view.tcc:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int4_sized.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/GLFW/glfw3.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/IndexBuffer.cpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h:
 
@@ -4022,13 +4540,17 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cli
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/clocale:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/condition_variable:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdio:
 
@@ -4038,23 +4560,29 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double2x2.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_bool2_precision.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x3.inl:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/renderer/Renderer.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception:
 
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/unistd.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x2.inl:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/atomicity.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double4_precision.hpp:
 
@@ -4063,6 +4591,8 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/string_conversions.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/type_traits.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int3.hpp:
 
@@ -4078,9 +4608,21 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/latch:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
 
+C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/mutex:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x4.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream:
 
@@ -4096,23 +4638,33 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pst
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x2.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/semaphore:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stop_token:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/streambuf:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/_fixes.hpp:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string_view:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error:
+
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat3x4.hpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/thread:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc:
 
@@ -4128,17 +4680,7 @@ C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc:
 
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/unistd.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
@@ -4153,6 +4695,8 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/float.h:
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits:
 
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float3x2_precision.hpp:
 
@@ -4214,16 +4758,6 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Shader.cpp:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int2_sized.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/compute_vector_relational.hpp:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
-
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/assert.h:
@@ -4254,13 +4788,13 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/process.h:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec1.inl:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
-
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
@@ -4276,7 +4810,7 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_f
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
-C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/utils/ThreadPool.h:
 
 C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
@@ -4324,13 +4858,9 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x3.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x4.hpp:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat2x4.inl:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x2.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x4.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_mat3x4.inl:
 
@@ -4348,6 +4878,8 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec2.inl:
 
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono:
+
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_float2.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec3.hpp:
@@ -4357,8 +4889,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glad/glad.h:
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/detail/type_vec4.inl:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/exponential.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double2x2.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_double2x2_precision.hpp:
 
@@ -4420,8 +4950,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_f
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float3x4.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x2.hpp:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x2_precision.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x3.hpp:
@@ -4430,13 +4958,9 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_u
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x3_precision.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x4.hpp:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_float4x4_precision.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_bool2.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_bool3.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint2.hpp:
 
@@ -4446,17 +4970,9 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_b
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double2.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/matrix_projection.inl:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double2_precision.hpp:
-
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double3.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double3_precision.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_double4.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_float2_precision.hpp:
 
@@ -4464,23 +4980,19 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/glm.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_float4.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_float4_precision.hpp:
-
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int3_sized.hpp:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int4.hpp:
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h:
 
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int4_sized.hpp:
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_int4.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint3.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint3_sized.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint4.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/vector_uint4_sized.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/fwd.hpp:
 
@@ -4489,8 +5001,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/geometric.hp
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/integer.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat2x4.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat3x4.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/mat4x2.hpp:
 
@@ -4505,12 +5015,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/vec4.hpp:
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/Entity.cpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/core/FrameBuffer.cpp:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h:
-
-C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/core/FrameBuffer.h:
 
@@ -4534,7 +5038,21 @@ C:/ProgramData/mingw64/mingw64/x86_64-w64-mingw32/include/string.h:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/main.cpp:
 
+C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/utils/ThreadPool.cpp:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h:
+
 C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale:
+
+C:/ProgramData/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/Renderer.cpp:
 
@@ -4557,10 +5075,6 @@ C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/ext/scalar_c
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/gtc/constants.hpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/gtc/constants.inl:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/include/external/glm/gtc/matrix_transform.hpp:
-
-C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/IndexBuffer.cpp:
 
 C:/Users/docto/Documents/GitHub/Sandbox-Engine/src/renderer/OrthoCamera.cpp:
 

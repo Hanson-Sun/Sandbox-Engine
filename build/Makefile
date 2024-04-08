@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named GLAD
+
+# Build rule for target.
+GLAD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GLAD
+.PHONY : GLAD
+
+# fast build rule for target.
+GLAD/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
+.PHONY : GLAD/fast
+
+#=============================================================================
 # Target rules for targets named Sandbox_Engine_Debug
 
 # Build rule for target.
@@ -127,6 +140,30 @@ Sandbox_Engine_Debug: cmake_check_build_system
 Sandbox_Engine_Debug/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/build
 .PHONY : Sandbox_Engine_Debug/fast
+
+include/external/glad/glad.obj: include/external/glad/glad.c.obj
+.PHONY : include/external/glad/glad.obj
+
+# target to build an object file
+include/external/glad/glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/include/external/glad/glad.c.obj
+.PHONY : include/external/glad/glad.c.obj
+
+include/external/glad/glad.i: include/external/glad/glad.c.i
+.PHONY : include/external/glad/glad.i
+
+# target to preprocess a source file
+include/external/glad/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/include/external/glad/glad.c.i
+.PHONY : include/external/glad/glad.c.i
+
+include/external/glad/glad.s: include/external/glad/glad.c.s
+.PHONY : include/external/glad/glad.s
+
+# target to generate assembly for a file
+include/external/glad/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/include/external/glad/glad.c.s
+.PHONY : include/external/glad/glad.c.s
 
 src/automata/Solver.obj: src/automata/Solver.cpp.obj
 .PHONY : src/automata/Solver.obj
@@ -440,6 +477,30 @@ src/renderer/VertexBufferLayout.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/renderer/VertexBufferLayout.cpp.s
 .PHONY : src/renderer/VertexBufferLayout.cpp.s
 
+src/utils/ThreadPool.obj: src/utils/ThreadPool.cpp.obj
+.PHONY : src/utils/ThreadPool.obj
+
+# target to build an object file
+src/utils/ThreadPool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.obj
+.PHONY : src/utils/ThreadPool.cpp.obj
+
+src/utils/ThreadPool.i: src/utils/ThreadPool.cpp.i
+.PHONY : src/utils/ThreadPool.i
+
+# target to preprocess a source file
+src/utils/ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.i
+.PHONY : src/utils/ThreadPool.cpp.i
+
+src/utils/ThreadPool.s: src/utils/ThreadPool.cpp.s
+.PHONY : src/utils/ThreadPool.s
+
+# target to generate assembly for a file
+src/utils/ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sandbox_Engine_Debug.dir\build.make CMakeFiles/Sandbox_Engine_Debug.dir/src/utils/ThreadPool.cpp.s
+.PHONY : src/utils/ThreadPool.cpp.s
+
 src/window/Window.obj: src/window/Window.cpp.obj
 .PHONY : src/window/Window.obj
 
@@ -472,7 +533,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... GLAD
 	@echo ... Sandbox_Engine_Debug
+	@echo ... include/external/glad/glad.obj
+	@echo ... include/external/glad/glad.i
+	@echo ... include/external/glad/glad.s
 	@echo ... src/automata/Solver.obj
 	@echo ... src/automata/Solver.i
 	@echo ... src/automata/Solver.s
@@ -512,6 +577,9 @@ help:
 	@echo ... src/renderer/VertexBufferLayout.obj
 	@echo ... src/renderer/VertexBufferLayout.i
 	@echo ... src/renderer/VertexBufferLayout.s
+	@echo ... src/utils/ThreadPool.obj
+	@echo ... src/utils/ThreadPool.i
+	@echo ... src/utils/ThreadPool.s
 	@echo ... src/window/Window.obj
 	@echo ... src/window/Window.i
 	@echo ... src/window/Window.s

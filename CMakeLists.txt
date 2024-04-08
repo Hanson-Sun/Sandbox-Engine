@@ -3,7 +3,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(Sandbox_Engine)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Set variables for the include and source directories
 set(INC_DIR include)
@@ -14,7 +15,15 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE "Debug")
 endif()
 
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic")
+set(CMAKE_CXX_FLAGS "-pedantic")
+
+if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "MSVC")
+    set(CMAKE_CXX_FLAGS "/W4")
+elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+else()
+    message("Using another compiler")
+endif()
 
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
@@ -22,6 +31,18 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 message(STATUS "C Compiler: ${CMAKE_C_COMPILER}")
 message(STATUS "C++ Compiler: ${CMAKE_CXX_COMPILER}")
 message(STATUS "Linker: ${CMAKE_LINKER}")
+
+set(LIBRARY_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/external/glad/glad.c
+
+)
+
+add_library(GLAD STATIC ${LIBRARY_SOURCES})
+
+target_include_directories(GLAD PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/external/glad
+    # add more directories as needed
+)
 
 # i should switch to recursive directory search
 include_directories(
@@ -36,10 +57,11 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/window
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/core
     ${CMAKE_SOURCE_DIR}/${INC_DIR}/automata
+    ${CMAKE_SOURCE_DIR}/${INC_DIR}/utils
 )
 
 file(GLOB_RECURSE HEADER_FILES "${INC_DIR}/*.h" "${INC_DIR}/*.hpp")
-file(GLOB_RECURSE SOURCE_FILES "${SRC_DIR}/*.cpp", "{SRC_DIR}/*.c")
+file(GLOB_RECURSE SOURCE_FILES "${SRC_DIR}/*.cpp" "{SRC_DIR}/*.c")
 
 message(STATUS "Source files: ${SOURCE_FILES}")
 
@@ -54,11 +76,14 @@ add_custom_command(TARGET ${PROJECT_NAME}_${CMAKE_BUILD_TYPE} POST_BUILD
 
 # libraries 
 
+message("CMAKE_SOURCE_DIR: ${CMAKE_SOURCE_DIR}")
+message("LIB_DIR: ${LIB_DIR}")
 find_library(GLFW3_LIBRARY glfw3 PATHS ${CMAKE_SOURCE_DIR}/${LIB_DIR})
-find_library(GLAD_LIBRARY glad PATHS ${CMAKE_SOURCE_DIR}/${LIB_DIR})
-message ("Library path: ${GLFW3_LIBRARY}, ${GLAD_LIBRARY}")
+# find_library(GLAD_LIBRARY glad PATHS ${CMAKE_SOURCE_DIR}/${LIB_DIR})
+message("GLFW3_LIBRARY: ${GLFW3_LIBRARY}")
+# message("GLAD_LIBRARY: ${GLAD_LIBRARY}")
 
-target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} ${GLFW3_LIBRARY} ${GLAD_LIBRARY})
+target_link_libraries(${PROJECT_NAME}_${CMAKE_BUILD_TYPE} ${GLFW3_LIBRARY} GLAD)
 
 
 

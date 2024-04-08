@@ -1,7 +1,10 @@
 #include "Solver.h"
+#include "ThreadPool.h"
 #include <cmath>
 #include <algorithm>
 #include <iostream>
+#include <latch>
+#include <semaphore>
 
 Solver::Solver(std::vector<Entity>* ents,  int width,  int height, float _time_step) {
     m_width = width;
@@ -14,8 +17,65 @@ Solver::~Solver() {
 }
 
 void Solver::update() {
-    for ( int row = 0; row < m_height; row++) {
-        for ( int col = 0; col < m_width; col++) {
+    int pool_size = ThreadPool::getInstance().getPoolSize();
+
+    int chunk_size = std::ceil(m_height / (float) pool_size);
+    int num_evens = pool_size;
+
+    int offset = rand() % (chunk_size / 3) - chunk_size / 4;
+
+    // printf("Active Threads 1: %d\n", ThreadPool::getInstance().getQueueSize());
+    int i = 0;
+    {
+        std::counting_semaphore semaphore(0);
+        int start = 0;
+        int end = 0;
+        for (i = 0; i < pool_size && start < m_height - 1; i++) {
+            end = start + chunk_size;
+            int mid = start + chunk_size / 2;
+            if (i == 0) end += offset;
+            mid = std::min(mid, m_height);
+            // printf("Rows 1: %d, %d, %d\n", start, mid, end);
+            ThreadPool::getInstance().enqueue([this, start, mid, &semaphore] {
+                update(start, mid);
+                semaphore.release();
+                });
+            start = end;
+        }
+
+        for (int j = 0; j < i; j++) {
+            semaphore.acquire();
+        }
+    }
+
+    // printf("Active Threads 2: %d\n", ThreadPool::getInstance().getQueueSize());
+    {
+        std::counting_semaphore semaphore(0);
+
+        int start = 0;
+        int end = 0;
+        for (i = 0; i < pool_size && start < m_height - 1; i++) {
+            end = start + chunk_size;
+            int mid = start + chunk_size / 2;
+            if (i == 0) end += offset;
+            end = std::min(end, m_height);
+            // printf("Rows 2: %d, %d,m %d\n", start, mid, end);
+            ThreadPool::getInstance().enqueue([this, mid , end, &semaphore] {
+                update(mid, end);
+                semaphore.release();
+            });
+            start = end;
+        }
+
+        for (int j = 0; j < i; j++) {
+            semaphore.acquire();
+        }
+    }
+}
+
+void Solver::update(int row_begin, int row_end) {
+    for (int row = row_begin; row < row_end; row++) {
+        for (int col = 0; col < m_width; col++) {
             Entity &ent = getEntity(row, col);
             if (ent.type == EntityType::EMPTY) continue;
 
@@ -27,7 +87,7 @@ void Solver::update() {
         }
     }
 
-    for (int row = 0; row < m_height; row++) {
+    for (int row = row_begin; row < row_end; row++) {
         for (int col = 0; col < m_width; col++) {
             Entity &ent = getEntity(row, col);
             if (ent.type == EntityType::EMPTY || ent.is_updated) continue;
@@ -35,23 +95,27 @@ void Solver::update() {
             ent.is_updated = true;
             ent.acceleration = {0, 0};
 
-            if (ent.is_moveable) {
+            if (ent.is_moveable && ent.is_active) {
                 // printf("Velocity (%f, %f)\n", ent.velocity.x, ent.velocity.y);
                 applyGravity(row, col, -5);
-                // applyVelocity(row, col);
+                applyFriction(row, col);
 
+                if (std::abs(ent.velocity.x) < EPSILON )
+                    ent.velocity.x = 0;
+                if (std::abs(ent.velocity.y) < EPSILON)
+                    ent.velocity.y = 0;
+        
                 ent.pos_offset.x += ent.velocity.x * time_step;
                 ent.pos_offset.y += ent.velocity.y * time_step;
+
                 applyMove(row, col);
-
-
+                
             }
         }
     }
 }
 
 Entity &Solver::getEntity(int row,  int col) {
-
     return m_entities->at(row * m_width + col);
 }
 
@@ -319,6 +383,73 @@ bool Solver::applyForces( int row,  int col) {
     return true;
 }
 
+bool Solver::applyFriction(int row, int col) {
+    Entity &ent = getEntity(row, col);
+    float mass = ent.mass;
+
+    if (ent.type == EntityType::EMPTY) return false;
+
+    // determine direction of travel in the four directions
+    
+    if (ent.velocity.x > 0 && ent.velocity.y > 0) {         // quad 1
+        if (inBounds(row, col + 1) && !isEmpty(row, col + 1)) {
+            Entity &ent2 = getEntity(row, col + 1);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * ent.velocity.x, 0.0f, ent.velocity.y);
+            ent.velocity.y -= friction_force;
+            ent2.velocity.y += friction_force * mass / ent2.mass;
+        }  
+        if (inBounds(row + 1, col) && !isEmpty(row + 1, col)) {
+            Entity &ent2 = getEntity(row + 1, col);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * ent.velocity.y, 0.0f, ent.velocity.x);
+            ent.velocity.x -= friction_force;
+            ent2.velocity.x += friction_force * mass / ent2.mass;
+        }
+    } else if (ent.velocity.x < 0 && ent.velocity.y > 0) { // quad 2
+        if (inBounds(row, col - 1) && !isEmpty(row, col - 1)) {
+            Entity &ent2 = getEntity(row, col - 1);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * std::abs(ent.velocity.x), 0.0f, ent.velocity.y);
+            ent.velocity.y -= friction_force;
+            ent2.velocity.y += friction_force * mass / ent2.mass;
+        }
+        if (inBounds(row + 1, col) && !isEmpty(row + 1, col)) {
+            Entity &ent2 = getEntity(row + 1, col);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * ent.velocity.y, 0.0f, std::abs(ent.velocity.x));
+            ent.velocity.x += friction_force;
+            ent2.velocity.x -= friction_force * mass / ent2.mass;
+        }
+    } else if (ent.velocity.x < 0 && ent.velocity.y < 0) { // quad 3
+        if (inBounds(row, col - 1) && !isEmpty(row, col - 1)) {
+            Entity &ent2 = getEntity(row, col - 1);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * std::abs(ent.velocity.x), 0.0f, std::abs(ent.velocity.y));
+            ent.velocity.y += friction_force;
+            ent2.velocity.y -= friction_force * mass / ent2.mass;
+        }
+        if (inBounds(row - 1, col) && !isEmpty(row - 1, col)) {
+            Entity &ent2 = getEntity(row - 1, col);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * std::abs(ent.velocity.y), 0.0f, std::abs(ent.velocity.x));
+            ent.velocity.x += friction_force;
+            ent2.velocity.x -= friction_force * mass / ent2.mass;
+        }
+    } else if (ent.velocity.x > 0 && ent.velocity.y < 0) { // quad 4
+        if (inBounds(row, col + 1) && !isEmpty(row, col + 1)) {
+            Entity &ent2 = getEntity(row, col + 1);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * ent.velocity.x, 0.0f, std::abs(ent.velocity.y));
+            ent.velocity.y += friction_force;
+            ent2.velocity.y -= friction_force * mass / ent2.mass;
+        }
+        if (inBounds(row - 1, col) && !isEmpty(row - 1, col)) {
+            Entity &ent2 = getEntity(row - 1, col);
+            float friction_force = std::clamp(std::max(ent.friction, ent2.friction) * std::abs(ent.velocity.y), 0.0f, ent.velocity.x);
+            ent.velocity.x -= friction_force;
+            ent2.velocity.x += friction_force * mass / ent2.mass;
+        }
+    }
+
+    // apply friction
+
+    return true;
+
+}
 
 bool Solver::applyDelta(int &row,  int &col,  int delta_row,  int delta_col) {
     row += delta_row;

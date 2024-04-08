@@ -29,6 +29,7 @@ Entity::Entity(EntityType _type, unsigned char _color[4], bool _is_moveable, boo
     is_destructable = _is_destructable;
     lifetime = _lifetime;
     is_updated = _is_updated;
+    is_active = true;
     pos_offset = glm::vec2(0.0f, 0.0f);
 }
 
@@ -36,7 +37,7 @@ Entity::Entity() : type(EntityType::CUSTOM), color{255, 0, 0, 255}, is_moveable(
                    lifetime(-1), mass(1), viscosity(0), t_strength(1), s_strength(1),
                    c_strength(1), elasticity(1), friction(0), temperature(273), conductivity(1),
                    specific_heat(1), melting_pt(273), boiling_pt(373), pos_offset(0.0f, 0.0f), velocity(0.0f, 0.0f),
-                   acceleration(0.0f, 0.0f), is_updated(false) {}
+                   acceleration(0.0f, 0.0f), is_updated(false), is_active(true) {}
 
 Entity::~Entity() {
 
